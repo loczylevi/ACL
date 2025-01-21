@@ -21,7 +21,7 @@ Remark only permit returnin htp and htps traffc
 exit
 
 int g0/0
-ip access-group SURFNG in
+ip access-group SURFING in
 ip access-group BROWSING out
 end
 sh acces-list
